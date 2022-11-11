@@ -1,9 +1,22 @@
 /* Add styling for your page here */
 
 .App {
+    border-width: 1rem;
+}
 
+.Site {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .BakeryItem {
-  
+    display: flex;
+    align-items: flex-end;
+    border: 2px solid black;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
